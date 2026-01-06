@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer components {
+  .card {
+    @apply bg-white p-8 text-black shadow shadow-black/70;
+  }
+}
+
+@theme {
+  --color-primary: #23a6f0;
+}
+
+body {
+  background-color: #252b42;
+  color: white;
+}
+
+.hero {
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+}
+
+.no-scroll::-webkit-scrollbar {
+  appearance: none;
+  height: .5rem;
+  border-radius: 50%;
+}
+
+.no-scroll::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  cursor: pointer;
+  @apply bg-primary
+}
+
+.no-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #0697eb;
+}
