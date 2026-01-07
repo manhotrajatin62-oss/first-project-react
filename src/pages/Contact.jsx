@@ -22,9 +22,9 @@ const Contact = () => {
           id="email"
           name="email"
           placeholder="Your Email"
-          className="h-full flex-1 px-2 text-sm text-black outline-0 placeholder:text-gray-500 sm:text-base"
+          className="h-full flex-1 px-2 text-sm text-black outline-0 placeholder:text-gray-500 "
         />
-        <button className="bg-primary h-full cursor-pointer rounded px-4 text-sm sm:rounded-none font-semibold hover:bg-[#0697eb] transition-colors duration-200 sm:text-base">
+        <button className="bg-primary h-full cursor-pointer rounded px-4 text-sm sm:rounded-none font-semibold hover:bg-[#0697eb] transition-colors duration-200 ">
           Subscribe
         </button>
       </div>
